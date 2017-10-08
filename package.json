@@ -19,5 +19,8 @@
     "react-dom": "^16.0.0",
     "react-echarts-v3": "^1.0.10",
     "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "echarts-for-react": "^2.0.0"
   }
 }
