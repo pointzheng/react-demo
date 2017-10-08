@@ -2,7 +2,8 @@ var webpack = require("webpack");
 var path = require('path');
 
 module.exports = {
-	entry : __dirname + "/src/main.js",
+//	entry : __dirname + "/src/main.js",
+	entry : __dirname + "/src/main-echarts-react.js",
 	output : {
 		path : __dirname + "/dist",
 		filename : "bundle.js"
