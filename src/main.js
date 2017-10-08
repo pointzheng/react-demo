@@ -1,19 +1,20 @@
 import Hello from './greeter.js';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import MyChart from './echartsMe.js';
 
 // 尝试导入jquery
-class Demo1 extends Component {
-    render() {
-    	
-    	console.log("jquery is:" + window.jQuery + ",length:" + $(".test").length);
-        return (
-            <input defaultValue={this.props.value} />
-        )
-    }
-}
+//class Demo1 extends Component {
+//    render() {
+//    	
+//    	console.log("jquery is:" + window.jQuery + ",length:" + $(".test").length);
+//        return (
+//            <input defaultValue={this.props.value} />
+//        )
+//    }
+//}
 
-
+/*
 // 尝试导入echarts
 var echarts = require('echarts');
 //基于准备好的dom，初始化echarts实例
@@ -32,10 +33,12 @@ myChart.setOption({
      data: [5, 20, 36, 10, 10, 20]
  }]
 });
+*/
 
-//ReactDOM.render(
-////  <Demo1 value={"test"} />,
-////	<Hello />,
-//	
-//    document.getElementById('root')
-//);
+ReactDOM.render(
+//  <Demo1 value={"test"} />,
+//	<Hello />,
+		<MyChart />,
+	
+    document.getElementById('root')
+);
