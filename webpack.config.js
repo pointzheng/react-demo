@@ -1,3 +1,5 @@
+var webpack = require("webpack");
+
 module.exports = {
 	entry : __dirname + "/src/main.js",
 	output : {
@@ -6,18 +8,25 @@ module.exports = {
 	},
 	devtool : "source-map",
 
-	// webpack-dev-serverÅäÖÃ
+	// webpack-dev-serverï¿½ï¿½ï¿½ï¿½
 	devServer : {
 		contentBase : "./dist",
 		colors : true,
 		inline : true
 	},
-	// Ôö¼ÓµÄ²¿·Ö
+	// ï¿½ï¿½ï¿½ÓµÄ²ï¿½ï¿½ï¿½
 	module : {
 		loaders : [ {
 			test : /\.js[x]?$/,
 			exclude : /node_modules/,
 			loader : 'babel-loader?presets[]=es2015&presets[]=react'
 		} ]
-	}
+	},
+	plugins:[
+	         new webpack.ProvidePlugin({
+	         $:"jquery",
+	         jQuery:"jquery",
+	         "window.jQuery":"jquery"
+	         })
+	       ]
 };
