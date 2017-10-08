@@ -7,4 +7,8 @@ Echarts: https://segmentfault.com/a/1190000008049240
 
 react-echarts-v3: https://www.npmjs.com/package/react-echarts-v3
 
-echarts-for-react: https://github.com/hustcc/echarts-for-react.git
+echarts-for-react: 
+
+https://github.com/hustcc/echarts-for-react.git
+
+https://www.npmjs.com/package/echarts-for-react
