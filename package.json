@@ -21,6 +21,7 @@
     "webpack": "^1.14.0"
   },
   "dependencies": {
-    "echarts-for-react": "^2.0.0"
+    "echarts-for-react": "^2.0.0",
+    "webpack-dev-server": "^1.14.0"
   }
 }
