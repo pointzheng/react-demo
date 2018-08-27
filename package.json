@@ -20,8 +20,9 @@
     "webpack": "^1.14.0"
   },
   "dependencies": {
-  	"echarts": "^3.7.2",
+    "echarts": "^3.7.2",
     "echarts-for-react": "^2.0.0",
+    "react-drag-and-drop": "^2.4.0",
     "webpack-dev-server": "^1.14.0"
   }
 }
